@@ -3,29 +3,29 @@
 用 Selenium IDE 录制的各种网站的自动化测试脚本，用于教学或生产案例。附：课程学习资料
 
 ## 视频课程
-- Selenium IDE web 自动化测试（上）  
-- Selenium IDE web 自动化测试（中）  
-- Selenium IDE web 自动化测试（下）  
-- Selenium IDE 综合案例实战第一季  
+- [Selenium IDE web 自动化测试（上）]  
+- [Selenium IDE web 自动化测试（中）]  
+- [Selenium IDE web 自动化测试（下）]  
+- [Selenium IDE 综合案例实战第一季]  
 
 ## 工具下载
-- 火狐浏览器  
-- Selenium IDE  
-- Selenium IDE: Flow Control  
+- [火狐浏览器]  
+- [Selenium IDE]  
+- [Selenium IDE: Flow Control]  
 
 ## 代码清单
-- hello world
-- 百度搜索
-- 51CTO 学院
-- hostedredmine
-- 定位器
-- 913abc
-- atool
-- 弹窗
-- 时间校准网
-- 在线计算器
-- ProcessOn
-- 数据驱动测试
+- [hello world]
+- [百度搜索]
+- [51CTO 学院]
+- [hostedredmine]
+- [定位器]
+- [913abc]
+- [atool]
+- [弹窗]
+- [时间校准网]
+- [在线计算器]
+- [ProcessOn]
+- [数据驱动测试]
 
 ## 参与项目
 - 可以参与的工作如下：
@@ -43,3 +43,26 @@
 - 脚本一律用 Selenium IDE 专用的格式，即：HTML 格式存放
 - 脚本以功能点来组织测试案例
 - 脚本录制的环境是 Selenium IDE 2.9, Firefox 49
+
+<!--以下是外部链接-->
+[Selenium IDE web 自动化测试（上）]:https://ke.qq.com/course/232231
+[Selenium IDE web 自动化测试（中）]:https://ke.qq.com/course/232657
+[Selenium IDE web 自动化测试（下）]:https://ke.qq.com/course/232711
+[Selenium IDE 综合案例实战第一季]:https://ke.qq.com/course/233031
+
+[火狐浏览器]:http://ftp.mozilla.org/pub/firefox/releases/
+[Selenium IDE]:https://addons.mozilla.org/zh-CN/firefox/addon/selenium-ide/
+[Selenium IDE: Flow Control]:https://addons.mozilla.org/zh-CN/firefox/addon/flow-control/
+
+[hello world]:https://github.com/wangding/selenium-ide-demo/tree/master/hello
+[百度搜索]:https://github.com/wangding/selenium-ide-demo/tree/master/baidu
+[51CTO 学院]:https://github.com/wangding/selenium-ide-demo/tree/master/edu51cto
+[hostedredmine]:https://github.com/wangding/selenium-ide-demo/tree/master/hostedredmine
+[定位器]:https://github.com/wangding/selenium-ide-demo/tree/master/locator
+[913abc]:https://github.com/wangding/selenium-ide-demo/tree/master/913abc
+[atool]:https://github.com/wangding/selenium-ide-demo/tree/master/ATOOL
+[弹窗]:https://github.com/wangding/selenium-ide-demo/tree/master/alert
+[时间校准网]:https://github.com/wangding/selenium-ide-demo/tree/master/time
+[在线计算器]:https://github.com/wangding/selenium-ide-demo/tree/master/zxjsq
+[ProcessOn]:https://github.com/wangding/selenium-ide-demo/tree/master/ProcessOn
+[数据驱动测试]:https://github.com/wangding/selenium-ide-demo/tree/master/DDT
