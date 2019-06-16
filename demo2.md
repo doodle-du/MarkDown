@@ -16,18 +16,17 @@
 
 ## 图片 demo
 
-- 图片的MarkDown语法  
-![alt](url txt)
-- 外部图片demo
+- 图片的MarkDown语法：![alt](url txt)
+- 外部图片demo  
 ![baidu](https://www.baidu.com/img/bd_logo1.png "baidu logo")
-- 仓库内的图片demo
+- 仓库内的图片demo  
 ![](images/translate.png)
 
 - 图片的引用式链接
-- 外部图片demo
+- 外部图片demo  
 ![baidu][baidu_logo]  
 <!--起别名-->
-- 仓库内的图片demo
+- 仓库内的图片demo  
 ![translate_png]  
 <!--未起别名-->
 
