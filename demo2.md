@@ -9,25 +9,27 @@
 - 内部链接2，链接本文档的其它部分：[代码块demo](demo2.md#代码块-demo)
 
 ### 引用式链接
-- 外部链接:[百度]
-- 外部链接:[百度][baidu](添加别名)
+- 外部链接:[百度]<!--不添加别名-->
+- 外部链接:[百度][baidu]<!--添加别名-->
 - 内部链接1，链接仓库的其它文件：[demo]
 - 内部链接2，链接本文档的其它部分：[代码块demo]
 
 ## 图片 demo
 
-- 图片的MarkDown语法
+- 图片的MarkDown语法  
 ![alt](url txt)
 - 外部图片demo
 ![baidu](https://www.baidu.com/img/bd_logo1.png "baidu logo")
-- **仓库内的图片demo**??
+- 仓库内的图片demo
 ![](images/translate.png)
 
 - 图片的引用式链接
 - 外部图片demo
-![baidu][baidu_logo]??
-- **仓库内的图片demo**??
-![][translate_png]
+![baidu][baidu_logo]  
+<!--起别名-->
+- 仓库内的图片demo
+![translate_png]  
+<!--未起别名-->
 
 
 ## 引用 demo
@@ -36,7 +38,7 @@
 
 出自《...》
 
-多次引用
+### 多次引用
 
 >>>这是多重引文。
 
