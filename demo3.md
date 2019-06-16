@@ -42,9 +42,9 @@ row   |row  |row   |row
 
 - [x] task1
 - [x] task2
-- [x] task3
+- [] task3
 
-- emoji 表情符号
+- emoji 表情符号  
 :emoji code:
 
 :+1:
