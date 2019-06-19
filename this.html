@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script>
+		function make(){
+			return ()=>{
+				console.log(this);
+			}
+		}
+		
+		const testFunc=make.call({name:'foo'});
+		
+		testFunc();
+		testFunc.call({name:'bar'});
+		
+		function foo(){
+			setTimeout(()=>{
+				console.log("args:",arguments);
+			},100);
+		}
+		
+		foo(2,4,6,8);
+		
+		function make(){
+			var self=this;
+			return function(){
+				console.log(self);
+			}
+		}
+		
+		function make(){
+			return function(){
+				console.log(this);
+			}.bind(this);
+		}
+		
+		function make(){
+			return()=>{
+				console.log(this);
+				console.log(arguments);
+			}
+		}
+		
+		//babel it...
+		
+		function make(){
+			var _this=this,
+				_arguments=arguments;
+				
+			return function(){
+				console.log(_this);
+				console.log(_arguments);
+			}
+		}
+		
+		const testFunc=(...args)=>{
+			console.log(args); //数组形式输出参数
+		}
+	</script>
+	<body>
+		<p>JavaScript中的普通函数和箭头函数</p>
+	</body>
+</html>
